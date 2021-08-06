@@ -3,7 +3,33 @@ Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cam
 
 Un detalle de los pasos para su generacion puede encontrase en doc/STEPS.MD
 
-## Origin
+# Run in Development server
+
+Ejecute `ng serve` para correr en dev server. Navegue a `http://localhost:4200/`. La app se refresca automaticamente con cualquier cambio en los fuentes.
+
+# Run with subpath in Development server
+
+Si vamos a desplegar la app en un servidor web (apache), es probable que no querramos que el proyecto corra en la raiz del sitio “/” sino en un subdirectorio “/ngStarter”
+
+para simular la misma ejecución que en apache desde el ambiente debemos usar:
+
+`ng serve --serve-path /ngStarter/ --base-href /ngStarter/` y navegar a: `http://localhost:4200/ngStarter/`.
+
+# Build
+Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en ngStarter, el mismo nombre de la app) vamos a ejecutar 
+
+`ng build --prod --base-href /ngStarter/` 
+
+Nota: OJO, NO ejecutar con bash, sino con powershell o command
+
+esto genera un carpeta ngStarter en dist que hay que colocar en htdocs de apache
+
+# Deploy en Apache
+
+copiar la carpeta ngStarter de dist dentro del htdocs de apache
+
+
+## Origin (de aqui en adelante se muestra el Readme Original de Angular CLI)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
