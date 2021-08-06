@@ -5,7 +5,7 @@ Un detalle de los pasos para su generacion puede encontrase en doc/STEPS.md
 
 ## Run in Development server
 
-Ejecute `ng serve` para correr en dev server. Navegue a `http://localhost:4200/`. La app se refresca automaticamente con cualquier cambio en los fuentes.
+Ejecute `ng serve` para correr en un servidor de desarrollo. Navegue a `http://localhost:4200/`. La app se refresca automaticamente con cualquier cambio en los fuentes.
 
 ## Run with subpath in Development server
 
@@ -15,7 +15,7 @@ para simular la misma ejecución que en apache desde el ambiente debemos usar:
 
 `ng serve --serve-path /ngStarter/ --base-href /ngStarter/` 
 
-y navegar a: `http://localhost:4200/ngStarter/`.
+y navegue a: `http://localhost:4200/ngStarter/`.
 
 ## Build
 Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en ngStarter, el mismo nombre de la app) vamos a ejecutar 
@@ -29,6 +29,8 @@ esto genera un carpeta ngStarter en dist que hay que colocar en htdocs de apache
 ## Deploy en Apache
 
 copiar la carpeta ngStarter de dist dentro del htdocs de apache
+
+y navegue a: `http://localhost/ngStarter/`.
 
 
 # Origin 
