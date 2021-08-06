@@ -1,4 +1,9 @@
 # NgStarter
+Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cambios menores detallados en doc/CHANGELOG.md
+
+Un detalle de los pasos para su generacion puede encontrase en doc/STEPS.MD
+
+## Origin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
