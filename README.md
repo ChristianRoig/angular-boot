@@ -1,40 +1,46 @@
 # NgStarter
-Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cambios menores detallados en doc/CHANGE-LOG.md
+Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cambios menores detallados en [doc/CHANGE-LOG.md](https://github.com/ChristianRoig/ngStarter/blob/starter/doc/CHANGE-LOG.md)
 
-Un detalle de los pasos para su generacion puede encontrase en doc/STEPS.md
+Un detalle de los pasos para su generacion puede encontrase en [doc/STEPS.md](https://github.com/ChristianRoig/ngStarter/blob/starter/doc/STEPS.md)
 
 ## Run in Development server
 
-Ejecute `ng serve` para correr en un servidor de desarrollo. Navegue a `http://localhost:4200/`. La app se refresca automaticamente con cualquier cambio en los fuentes.
+Ejecutar `ng serve` para correr en un servidor de desarrollo. 
+
+Y navegar a `http://localhost:4200/`. 
+
+La app se refresca automaticamente con cualquier cambio en los fuentes.
 
 ## Run with subpath in Development server
 
-Si vamos a desplegar la app en un servidor web (apache), es probable que no querramos que el proyecto corra en la raiz del sitio “/” sino en un subdirectorio “/ngStarter”
+Si vamos a desplegar la app en un servidor web (apache), es probable que no querramos que el proyecto corra en la raiz del sitio “/” sino en un subdirectorio, por ej. “/ngStarter”
 
-para simular la misma ejecución que en apache desde el ambiente debemos usar:
+Para simular la misma ejecución que en apache (desde el servidor de desarrollo) debemos usar:
 
 `ng serve --serve-path /ngStarter/ --base-href /ngStarter/` 
 
-y navegue a: `http://localhost:4200/ngStarter/`.
+Y navegar a: `http://localhost:4200/ngStarter/`.
 
 ## Build
-Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en ngStarter, el mismo nombre de la app) vamos a ejecutar 
+Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en ngStarter, el mismo nombre de la app) vamos a ejecutar: 
 
 `ng build --prod --base-href /ngStarter/` 
 
 Nota: OJO, NO ejecutar con bash, sino con powershell o command
 
-esto genera un carpeta ngStarter en dist que hay que colocar en htdocs de apache
+Nota: esto genera un carpeta ngStarter en dist que hay que colocar en htdocs de apache
 
 ## Deploy en Apache
 
-copiar la carpeta ngStarter de dist dentro del htdocs de apache
+Copiar la carpeta ngStarter de dist dentro del htdocs de apache.
 
-y navegue a: `http://localhost/ngStarter/`.
+Y navegar a: `http://localhost/ngStarter/`.
 
+## Buenas Practicas
+Hacemos nuestra declaracion de buenas practicas en [doc/GOOD-PRACT.md](https://github.com/ChristianRoig/ngStarter/blob/starter/doc/GOOD-PRACT.md)
 
-# Origin 
-
+---
+---
 ## (de aqui en adelante se muestra el Readme Original de Angular CLI)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.

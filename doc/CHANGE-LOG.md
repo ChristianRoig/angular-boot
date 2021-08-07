@@ -8,4 +8,4 @@ Se modifico la pagina inicial de la aplicacion.
 
 ## version 0.0
 
-Version Inicial generado con Angular CLI.
+Version Inicial generada con Angular CLI.
