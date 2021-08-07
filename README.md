@@ -1,5 +1,5 @@
 # NgStarter
-Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cambios menores detallados en doc/CHANGELOG.md
+Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cambios menores detallados en doc/CHANGE-LOG.md
 
 Un detalle de los pasos para su generacion puede encontrase en doc/STEPS.md
 
