@@ -4,7 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-path": "ng serve --serve-path /ngBoot/ --base-href /ngBoot/",
     "build": "ng build",
+    "build-path": "ng build --prod --base-href /ngBoot/ ",
+    "build-in": "ng build --prod --base-href /ngBoot/ --output-path ../angular-boot-API/src/main/resources/static",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
