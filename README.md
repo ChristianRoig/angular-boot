@@ -1,4 +1,4 @@
-# AngularBoot
+# Starter Angular
 Este proyecto es un "proyecto inicial" Generado con Angular CLI, con algunos cambios menores detallados en [doc/CHANGE-LOG.md](https://github.com/ChristianRoig/ngStarter/blob/starter/doc/CHANGE-LOG.md)
 
 Un detalle de los pasos para su generacion puede encontrase en [doc/STEPS.md](https://github.com/ChristianRoig/ngStarter/blob/starter/doc/STEPS.md)
@@ -21,27 +21,27 @@ Para simular la misma ejecución que en apache (desde el servidor de desarrollo)
 
 o
 
-`ng serve --serve-path /ngBoot/ --base-href /ngBoot/` 
+`ng serve --serve-path /startNG/ --base-href /startNG/` 
 
-Y navegar a: `http://localhost:4200/ngBoot/`.
+Y navegar a: `http://localhost:4200/startNG/`.
 
 ## Build-path
-Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en ngBoot, el mismo nombre de la app) vamos a ejecutar: 
+Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en , el mismo nombre de la app) vamos a ejecutar: 
 
-`ng build --prod --base-href /ngBoot/` 
+`ng build --prod --base-href /startNG/` 
 
 Nota: OJO, NO ejecutar con bash, sino con powershell o command
 
 Nota: esto genera un carpeta ngStarter en dist que hay que colocar en htdocs de apache
 
 ## Build-in
-Nota: como no se instala en la raíz del tomcat (En nuestro caso lo vamos a instalar en ngBoot, el mismo nombre de la app) vamos a ejecutar: 
+Nota: como no se instala en la raíz del tomcat (En nuestro caso lo vamos a instalar en startNG, el mismo nombre de la app) vamos a ejecutar: 
 
 `npm run build-in` 
 
 o
 
-`ng build --prod --base-href /ngBoot/ ` 
+`ng build --prod --base-href /startNG/ ` 
 
 Nota: OJO, NO ejecutar con bash, sino con powershell o command
 
@@ -51,7 +51,7 @@ Nota: esto genera una carpeta static en el proyecto java a deployar en Tomcat.
 
 Copiar la carpeta ngBoot de dist dentro del htdocs de apache.
 
-Y navegar a: `http://localhost/ngBoot/`.
+Y navegar a: `http://localhost/startNG/`.
 
 ## Deploy en Tomcat
 
@@ -59,7 +59,7 @@ Generar el .war con `mvn clean install`.
 
 Hacer deploy del archivo en el manager del Tomcat
 
-Y navegar a: `http://localhost:8080/ngBoot/`.
+Y navegar a: `http://localhost:8080/startNG/`.
 
 ## Buenas Practicas
 Hacemos nuestra declaracion de buenas practicas en [doc/GOOD-PRACT.md](https://github.com/ChristianRoig/ngStarter/blob/starter/doc/GOOD-PRACT.md)

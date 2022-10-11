@@ -1,13 +1,13 @@
 {
-  "name": "ng-starter",
+  "name": "starter-front-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start-path": "ng serve --serve-path /ngBoot/ --base-href /ngBoot/",
+    "start-path": "ng serve --serve-path /startNG/ --base-href /startNG/",
     "build": "ng build",
-    "build-path": "ng build --prod --base-href /ngBoot/ ",
-    "build-in": "ng build --prod --base-href /ngBoot/ --output-path ../angular-boot-API/src/main/resources/static",
+    "build-path": "ng build --prod --base-href /startNG/ ",
+    "build-in": "ng build --prod --base-href /startNG/ --output-path ../starter-back-springboot/src/main/resources/static",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
