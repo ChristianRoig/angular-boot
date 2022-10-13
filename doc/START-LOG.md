@@ -1,4 +1,4 @@
-# NgStarter - Paso a Paso
+# Starter ANGULAR - Paso a Paso (del comienzo)
 
 ## Etapa 1 (creando el proyecto)
 
@@ -17,19 +17,19 @@
 
 ### 2.- Crear un proyecto con Angular CLI y ejecutarlo. 
 
-`ng new ngStarter`
+`ng new starter-front-angular`
 
     ? Would you like to add Angular routing? Yes
 
     ? Which stylesheet format would you like to use? CSS
 
-    CREATE ngStarter...
+    CREATE starter-front-angular...
 
     Packages installed successfully.
 
     Successfully initialized git.
 
-`cd ngStarter`
+`cd starter-front-angular`
 
 `ng serve -o`
 
@@ -63,7 +63,7 @@ Listo! ya estamos en condiciones de empezar a trabajar en nuestra rama starter.
 ### 6.- Subir a la nuebe (opcional)
 Pero antes de empezar podemos crear un repositorio en la nube (por ejemplo en GitHub) y subir nuestro proyecto al repositorio remoto (este paso también lo podemos hacer más adelante)
 
-`git remote add origin https://github.com/ChristianRoig/ngStarter.git`
+`git remote add origin https://github.com/Siete-Ideas/starter-front-angular`
 
 `git branch -M master`
 
@@ -91,25 +91,25 @@ Listo! ya terminamos los cambios
 
 Vamos a desplegar la app en un servidor web (apache) pero es probable que no querramos que el proyecto corra en la raiz del sitio “/” sino en “/ngStarter”
 
-### 3.1.- Ejecuto en “/ngStarter”
+### 3.1.- Ejecuto en “/starter”
 
 para simular la misma ejecución que en apache desde el ambiente de desarrollo debemos usar:
 
-`ng serve --serve-path /ngStarter/ --base-href /ngStarter/`
+`ng serve --serve-path /starter/ --base-href /starter/`
 
-y accedemos con http://localhost:4200/ngStarter/ 
+y accedemos con http://localhost:4200/starter/ 
 
 ### 3.2.- Build
 Nota: como no se instala en la raíz del apache (En nuestro caso lo vamos a instalar en ngStarter, el mismo nombre de la app) vamos a ejecutar: 
 
-`ng build --prod --base-href /ngStarter/` 
+`ng build --prod --base-href /starter/` 
 
 Nota: OJO, NO ejecutar con bash, sino con powershell o command
 
-Nota: esto genera un carpeta ngStarter en dist que hay que colocar en htdocs de apache
+Nota: esto genera un carpeta starter en dist que hay que colocar en htdocs de apache
 
 ### 3.3.- hacer deploy en Apache
-Copiar la carpeta ngStarter de dist dentro del htdocs de apache
+Copiar la carpeta starter de dist dentro del htdocs de apache
 
 Nota: este texto se agrega al readme del proyecto
 

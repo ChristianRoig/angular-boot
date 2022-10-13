@@ -1,4 +1,4 @@
-# NgStarter - Declaración de Buenas Prácticas
+# Starter ANGULAR - Declaración de Buenas Prácticas
 
 ## 1.- Usar Git
 Usar un sistema de versionado de código. 
@@ -13,7 +13,7 @@ La rama Master siempre debe quedar perfecta, las chanchadas en otras ramas.
 Dejar info en el Readme del repositorio para instalación, desarrollo y configuración.
 Documentar URLs de acceso a la APP/API.
 
-## 4.- escribir y llevar actualizado un CHANGELOG (y STEPS si corresponde)
+## 4.- escribir y llevar actualizado un CHANGE-LOG (y START-LOG si corresponde)
 Dejar documentados cambios y pasos
 Change Log: Cambios para ser entendidos por un usuario final
 Steps: Detalle de pasos para un desarrollador.
