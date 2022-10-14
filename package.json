@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start-path": "ng serve --serve-path /startNG/ --base-href /startNG/",
+    "start-path": "ng serve --serve-path /starter/ --base-href /starter/",
     "build": "ng build",
-    "build-path": "ng build --prod --base-href /startNG/ ",
-    "build-in": "ng build --prod --base-href /startNG/ --output-path ../starter-back-springboot/src/main/resources/static",
+    "build-path": "ng build --prod --base-href /starter/ ",
+    "build-in": "ng build --prod --base-href /starter/ --output-path ../starter-back-springboot/src/main/resources/static/starter",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

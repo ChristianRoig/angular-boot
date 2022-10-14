@@ -5,7 +5,7 @@
 ### 1.- Instalar Node, npm y angular cli
 (ref: https://angular.io/guide/setup-local ) 
 
-`ng versión`
+`ng version`
 
     Angular CLI: 12.1.3
 

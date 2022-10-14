@@ -5,9 +5,9 @@ Usar un sistema de versionado de código.
 Hacer commits cortos y con leyendas claras.
 Tener presente una perspectiva de software colaborativo (el código debe poder ser entendido e integrado por otra persona).
 
-## 2.- usar bien las ramas de Git
-Trabajar en ramas de features (starter#1, etc) y hacer pull requests a Master.
-La rama Master siempre debe quedar perfecta, las chanchadas en otras ramas.
+## 2.- usar bien las ramas de Git (Seguir GitFlow)
+Trabajar en ramas de features (starter#1, etc) y hacer pull requests a Main.
+La rama Main siempre debe quedar perfecta, las chanchadas en otras ramas.
 
 ## 3.- usar el README.md
 Dejar info en el Readme del repositorio para instalación, desarrollo y configuración.
